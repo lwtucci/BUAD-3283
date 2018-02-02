@@ -1,0 +1,51 @@
+h1 {
+	font-size: 75px;
+	text-align: center;
+	text-shadow: 3px 6px #004E42;
+}
+
+h3 {
+	font-size: 50px;
+	text-align: centered;
+	padding-left: 75px;
+	text-shadow: 2px 4px #004E42;
+}
+
+a {
+	padding-left: 20px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+	
+}
+
+body {
+	border-style: solid;
+	box-shadow: 10px 10px 8px #004E42;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: grey;
+	background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p {
+	box-shadow: 10px 10px 8px #004E42;
+	text-indent: 50px;
+	padding: 25px 25px 25px 25px;
+	border-style: solid;
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 25px;
+	font-family: Times New Roman;
+}
