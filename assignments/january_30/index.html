@@ -1,21 +1,21 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Contact Form</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="generator" content="Geany 1.31" />
+    </head>
 
-<head>
-	<title>Contact Form</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="generator" content="Geany 1.31" />
-</head>
-
-<body>
-	<h1>Contact Form:</h1>
-	<form>Name:<input type="text" name="filled_name"><br><br>
-	<form>Email:<input type="mail" name="filled_mail"><br><br>
-	<form>Phone number:<input type="number" name="filled_number"><br><br>
-	<form>Comment:<input type="text" name="filled_comment"><br><br>
-	<input type="submit" value="submit" /><br>
-</body>
-
+    <body>
+    <h1>Contact Form:</h1>
+    <form action="endpoint.php" method="post">
+        <fieldset>
+            <label for="name">Name:</label><input id="name" type="text" name="filled_name"><br><br>
+            <label for="email">Email:</label><input id="email" type="email" name="filled_mail"><br><br>
+            <label for="phone">Phone number:</label><input id="phone" type="tel" name="filled_number"><br><br>
+            <label for="comment">Comment:</label><input id="comment" type="text" name="filled_comment"><br><br>
+            <input type="submit" value="submit" /><br>
+        </fieldset>
+    </form>
+    </body>
 </html>
